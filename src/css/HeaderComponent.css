@@ -1,0 +1,148 @@
+.q-header{
+    background: transparent;
+    background-attachment:unset !important;
+}
+.q-layout.q-layout--standard {
+    min-height: fit-content !important;
+}
+h4 {
+    width: fit-content;
+    background: gray;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 20px 37px;
+    color: black;
+    height: 80px; 
+    margin: 15px 35px;
+}
+a.q-tab{
+    width:150px;
+
+
+}
+.q-tab__label {
+    font-size: 18px !important;
+    line-height: 1.715em;
+    font-weight: 500;
+}
+.q-btn {
+    margin-left:20px;
+    width: 210px;
+    height: 62px;
+    border-radius: 10px;
+    background: #fda923 !important;
+}
+.q-header{
+    background:transparent
+}
+.q-tabs--not-scrollable .q-tabs__content {
+    border-radius: inherit;
+    justify-content: end;
+    padding-right: 25px;
+}
+
+.welcome-section{
+
+    background: linear-gradient(100deg, #430b5ad4, #761e87d4 ,#9c315edb, #0000005e),url(../assets/welcome-bg.jpg);
+        min-height: 1067px;
+        background-size: cover;
+        padding-bottom: 50px;
+    
+}
+.overlay {
+    background: url(../assets/overlay-bg.png);
+    width: 100%;
+    height: 100%;
+    background-size: 69%;
+    background-repeat: no-repeat;
+    background-position: 190px 341px;
+}
+
+.weclome-content {
+    padding-top: 15%;
+}
+h1.title {
+    color:white;
+    font-size: 52px;
+    line-height: 55px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-right: 31%;
+    margin: 160px 0 20px;
+}
+.weclome-content p {
+    font-size: 20px;
+    display: inline-block;
+    font-weight: 400;
+    color: white;
+    opacity: .8;
+    padding-right: 25px;
+}
+.title-content {
+    padding: 0 7%;
+}
+
+.reg-side {
+    margin: 0 auto;
+    max-width: 448px;
+    height: 450px;
+    background: white;
+    border-radius: 12px;
+}
+h1.reg-title {
+    padding: 45px 37px 0px;
+    line-height: 40px;
+    font-size: 29px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #4b5563;
+}
+.reg-add {
+    padding: 0 20px 0 37px;
+    color: #4b5563 !important;
+    font-size: 19px !important;
+    font-weight: 600 !important;
+    line-height: 20px;
+    text-transform: capitalize;
+}
+h2 {
+    padding: 15px 36px 0px;
+    margin: 0;
+    font-size: 15px;
+    font-weight: 500;
+    color: #4b5563;
+    text-transform: uppercase;
+}
+.reg-p{
+    padding: 0 35px;
+    font-size: 17px !important;
+    color: #9f9d9d !important;
+}
+a.reg-button {
+    width: 85%;
+    margin: 30px auto ;
+    background: #fda923;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 10px;
+}
+@media screen and (min-width:990px) {
+    li.nav-item {
+        margin-right: 60px;
+    }
+    .no-wrap{
+        flex-wrap:unset;
+    }
+}
+    @media screen and (max-width:990px) {
+
+    .overlay{
+        background:unset;
+    }
+}

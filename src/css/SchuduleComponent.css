@@ -1,0 +1,131 @@
+h1.title {
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 26px;
+    text-transform: uppercase;
+    color: #fda923;
+    font-weight: 500;
+    line-height: unset;
+}
+h2.sub-title{
+    text-align: center;
+    padding: 0 36%;
+    font-weight: 600;
+    font-size: 30px;
+    padding-bottom: 28px;
+    line-height: 31px;
+}
+section.schudule {
+    margin: 150px 0;
+}
+.event-days button {
+    background: none;
+    border: none;
+}
+.btn1{
+   margin-left:75px;
+}
+.btn {
+    font-size: 50px;
+    font-weight: 200;
+}
+.day {
+    font-size: 19px;
+    text-transform: capitalize;
+    font-weight: 500;
+    height: 56px;
+    margin: 10px 20px;
+}
+.day span{
+    color: #b9b7b7;
+}
+.day.active span,.day:hover span{
+    color: #fda923;
+}
+.day.active ,.day:hover{
+    color: #fda923;
+    background: #591e70;
+    border-radius: 50px;
+    transition:.7s linear background;
+}
+.event-details {
+    background: #591e70;
+    width: 92%;
+    margin: 40px auto;
+    border-radius: 15px;
+    min-height: 200px;
+
+}
+h1.day-no {
+    color: white;
+    font-size: 41px;
+    font-weight: 500;
+    text-align: center;
+}
+h2.month {
+    margin: 50px 0 0;
+    font-size: 24px;
+    font-weight: 300;
+    color: white;
+    line-height: 23px;
+}
+p.time {
+    color: white;
+    font-size: 13px;
+    font-weight: 400;
+    margin: 0 0 4px;
+}
+p.location {
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #fda923;
+}
+h1.event-title {
+    margin: 0;
+    font-size: 23px;
+    color: white;
+    font-weight: 500;
+    text-transform: capitalize;
+    padding-left: 50px;
+}
+p.text {
+    color: gainsboro;
+    padding-right: 30%;
+    padding-left: 50px;
+}
+img.speaker-img {
+    width: 31%;
+    border-radius: 50%;
+}
+.speaker {
+    margin-top: 43px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+}
+h1.name {
+    font-size: 17px;
+    color: white;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: unset;
+    margin: 0;
+}
+h1.role {
+    font-size: 15px;
+    color: darkgray;
+    line-height: 0px;
+    margin: 10px 0;
+}
+.speaker-info {
+    vertical-align: top;
+    margin-top: 19px;
+    margin-left: 19px;
+    display: inline-block;
+}   
+@media screen and ( max-width:992px){
+    .btn1{
+        margin: 0;
+    }
+    .day {
+    width: 100%;}
+}
