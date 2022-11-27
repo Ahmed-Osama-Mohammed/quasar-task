@@ -1,0 +1,44 @@
+
+h1.title {
+    font-size: 42px;
+    text-align: center;
+    font-weight: 500;
+    color: white;
+    padding-top: 150px;
+    line-height: 0;
+}
+
+section.footer {
+    background: #591e70;
+    margin-top: 200px;
+}
+h2.sub-title {
+     font-weight: 300;
+    text-align: center;
+    font-size: 19px;
+    line-height: 0;
+    padding-top: 4px;
+    padding-bottom: 25px;
+    color: white;
+}
+.q-btn{
+    margin: 0 auto 65px;
+    display: block;
+    padding: 24px;
+    background: orange !important;
+    font-size: 14px;
+    font-weight: 500;
+}
+.footer-end {
+    background: black;
+    color: white;
+    padding: 75px 0 225px;
+}
+
+p.text {
+    font-size: 20px;
+    text-align: center;
+    line-height: 0;
+    padding: 4px 0;
+    font-weight: 300;
+}
